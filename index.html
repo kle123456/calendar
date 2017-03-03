@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>运营日历</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1 user-scalable=0"/>
+    <link rel="stylesheet" href="./dist/css/styles.css">
+    <script src="./dist/js/widget/rem.min.js"></script>
+</head>
+
+<body>
+
+<div class="app-wrap">
+
+    <div class="load-box">
+        <div class="icon-loading rotation"></div>
+    </div>
+
+    <div id="date-wrap">
+        <div class="date-bar-box display-flex">
+
+            <div class="logo-box flex-start-center">
+                <div class="logo"></div>
+                <div class="title">运营日历</div>
+            </div>
+
+            <div class="control-bar flex1-end-center">
+                <div class="control-module year-control">
+                    <!--<a class="prev" id="prevYear">上一年</a>-->
+                    <select class="list year-list">
+                        <!--<option value="1900">1900</option>-->
+                    </select>
+                    <!--<a class="next" id="nextYear">下一年</a>-->
+
+                </div>
+                <div class="control-module month-control">
+                    <!--<a class="prev" id="prevMonth">上一月</a>-->
+                    <select class="list month-list ">
+                        <!--<option value="1900">1</option>-->
+                    </select>
+                    <!--<a class="next" id="nextMonth">下一月</a>-->
+
+                </div>
+                <div id="today-btn" class="">返回今天</div>
+            </div>
+        </div>
+
+        <div class="date-box">
+            <ul class="date-head clearfix display-flex">
+                <li data-id="6" class="days-title flex1-center">日</li>
+                <li data-id="0" class="days-title flex1-center">一</li>
+                <li data-id="1" class="days-title flex1-center">二</li>
+                <li data-id="2" class="days-title flex1-center">三</li>
+                <li data-id="3" class="days-title flex1-center">四</li>
+                <li data-id="4" class="days-title flex1-center">五</li>
+                <li data-id="5" class="days-title flex1-center">六</li>
+            </ul>
+            <div class="date-body-wrap">
+                <div class="date-body-box">
+                    <div class="date-body-main">
+                        <div class="date-body-item">
+
+                        </div>
+                        <div class="date-body-item">
+
+                        </div>
+                        <div class="date-body-item">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!--显示信息-->
+    <div class="date-info">
+        <div class="date-info-scroll">
+            <div class="date-info-box">
+
+                <div class="date-info-item">
+                    <div class="cur-date-tit flex-start-center">
+                        <div class="date-tit-red mr2">
+                            <span class="icon-calendar"></span>
+                            <span class="current-date">2017.12.12</span>
+                        </div>
+
+                        <span class="gray mr2 current-weekday">星期三</span>
+                        <span class="gray lunar-info current-lunar">腊月二十</span>
+                    </div>
+
+                    <p class="">让我们看看今天都有哪些营销节点!</p>
+                </div>
+
+                <div class="date-info-item last-year-box">
+                    <div class="date-tit">去年<span class="last-year-tit"></span> </div>
+                    <p class="article-content"></p>
+
+                     <div class="predictive-box">
+                         <div class="date-tit">今年预测什么会火</div>
+                         <p class="article-class"></p>
+                     </div>
+
+
+                </div>
+
+                <div class="date-info-item key-words-box">
+                    <div class="date-tit">运营关键词</div>
+                    <div class="key-words">
+
+                    </div>
+                </div>
+
+
+
+                <div class="date-info-item article-box">
+                    <div class="date-tit">去年热文</div>
+                    <ul class="article-list">
+
+                    </ul>
+                </div>
+
+                <div class="date-info-item hot-words-box">
+                    <div class="date-tit">热词云图</div>
+                    <div class="hot-words"></div>
+                    <div class="hot-words-map">
+
+                    </div>
+                </div>
+
+                <div class="date-info-item marketing-case-box">
+                    <div class="date-tit">营销案例</div>
+                    <ul class="marketing-case">
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<script src="./dist/js/widget/echarts-all.min.js"></script>
+<script src="./dist/js/widget/echarts-wordcloud.min.js"></script>
+<script src="./dist/js/app.js"></script>
+
+</body>
+</html>

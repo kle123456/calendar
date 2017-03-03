@@ -1,0 +1,128 @@
+
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+<title>运营日历</title>
+
+<meta charset="utf-8"/>
+<meta name="renderer" content="webkit">
+<meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<link href="static/local_static/css/almanac.css" rel="stylesheet" type="text/css" />
+<link rel="stylesheet" type="text/css" href="static/local_static/font-awesome-4.6.3/css/font-awesome.min.css">
+</head>
+<body>
+
+<div class="master" id="id_container">
+<!-- 假日方案 -->
+  <div class="zh-almanac" id="id_almanac" data-id="2">
+    <div class="hint-bar clearfix">
+      <div class="control-bar">
+        <div class="control-module year-control">
+          <div val="2015" class="field year">2015年</div>
+        </div>
+      </div>
+      <div class="control-module month-control">
+        <div val="7" class="field month">7月</div>
+      </div>
+    </div>
+        <!-- <div class="btn-today" id="btn-today">返回今天</div> -->
+  </div>
+</div>
+  <div class="alc-container">
+    <div class="left">
+      <ul class="dates-hd clearfix">
+        <li data-id="6" class="days-title last ">日</li>
+        <li data-id="0" class="days-title ">一</li>
+        <li data-id="1" class="days-title ">二</li>
+        <li data-id="2" class="days-title ">三</li>
+        <li data-id="3" class="days-title ">四</li>
+        <li data-id="4" class="days-title ">五</li>
+        <li data-id="5" class="days-title ">六</li>
+      </ul>
+      <ol id="date-bd" class="dates-bd clearfix"></ol>
+
+    </div>
+    <div class="right" id="right">
+      <div class="almanac-tips">
+        <div class="dates-bar">
+          <span class="date"></span><span class="weekday"></span>
+        </div>
+        <div class="desc">
+          <div class="lunar"></div>
+          <!-- <div class="lunar-ganzhi"></div> -->
+          <div class="lunar-term"></div>
+        </div>
+        <p>让我们看看今天都有哪些营销节点!</p>
+      </div>
+      <div class="last-year">
+        <p>去年<span class="artile-title"></span> ：</p>
+        <div class="text">
+          <p class="article">
+            <span>微信公众号总共发布春节相关文章：</span>
+            <span class="article-num"></span>
+          </p>
+          <p class="read">
+            <span>阅读量达到：</span>
+            <span class="read-num"></span>
+          </p>
+        </div>
+      </div>
+      <div class="last-year">
+        <p>运营关键词有：</p>
+        <div class="text">
+          <p class="article">
+            <span class="key-word">特朗普 美国 媒体</span>
+            <!-- <span></span> -->
+          </p>
+        </div>
+      </div>
+      <div class="last-year">
+        <p>今年预测什么会火：</p>
+        <div class="text">
+          <p class="article">
+            <span>特朗普 美国 媒体</span>
+            <!-- <span></span> -->
+          </p>
+          <p class="article">
+            <span>特朗普 美国 媒体</span>
+            <!-- <span></span> -->
+          </p>
+          <p class="article">
+            <span>特朗普 美国 媒体</span>
+            <!-- <span></span> -->
+          </p>
+        </div>
+      </div>
+      <h4>去年热文</h4>
+      <div class="article-list">
+        <ul class="hot-article"></ul>
+      </div>
+
+      <h4>热词云图</h4>
+      <div class="hot-word" style="background-color: #fff">
+        <div class="hw-div">
+          【<span class="hot-words">特朗普(10)</span>】
+        </div>
+        <div id="main" style="width: 100%;height: 260px;background-color: #fff;"></div>
+      </div>
+      <h4>营销案例</h4>
+      <div class="article-list">
+        <ul class="yxDemo"></ul>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<script src="static/local_static/js/jquery.1.10.2.min.js"></script>
+<!--[if lt IE 9]>
+    <script src="./jquery.1.8.2.min.js"></script>
+<![endif]-->
+<script type="text/javascript" src="http://registry.communet.io/packages/echarts/3.2.3/echarts-all.min.js"></script>
+<script type="text/javascript" src="http://registry.communet.io/packages/echarts-wordcloud/0.0.1/echarts-wordcloud.js"></script>
+<script src="static/local_static/js/almanac.js"></script>
+<script type="text/javascript" src="static/local_static/js/index.js"></script>
+</body>
+</html>
