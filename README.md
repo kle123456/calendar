@@ -1,4 +1,4 @@
-calendar 微信运营日历
+calendar H5运营日历
 =====================
 
 ## 项目运行
@@ -48,8 +48,5 @@ src 是开发目录 ， dist是打包目录
 
 运行结果：
 ![image](/doc/img/Screenshot_2017-03-04-02-27-43-664_com.tencent.mo.png)
-![image](/doc/img/Screenshot_2017-03-04-02-27-54-426_com.tencent.mo.png)
-![image](/doc/img/Screenshot_2017-03-04-02-28-00-030_com.tencent.mo.png)
-![image](/doc/img/Screenshot_2017-03-04-02-28-12-015_com.tencent.mo.png)
 
 
