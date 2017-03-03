@@ -4,5 +4,6 @@
 
 //请求地址配置
 module.exports = {
-    getCalendar : 'http://mrm.amediaz.cn/calendar',
+    //getCalendar : 'http://mrm.amediaz.cn/calendar',
+	getCalendar : calendar.json,
 };
