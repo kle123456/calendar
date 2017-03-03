@@ -47,6 +47,6 @@ gulp build
 src 是开发目录 ， dist是打包目录
 
 运行结果：
-![image](/doc/img/Screenshot_2017-03-04-02-27-43-664_com.tencent.mo.png)
-
-
+![image](/doc/img/Screenshot_2017-03-04-03-01-32-283_com.tencent.mm.png)
+![image](/doc/img/Screenshot_2017-03-04-03-01-43-939_com.tencent.mm.png)
+![image](/doc/img/Screenshot_2017-03-04-03-01-55-526_com.tencent.mm.png)
